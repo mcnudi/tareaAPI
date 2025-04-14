@@ -31,6 +31,7 @@ public class TareaController {
         return tareaRepo.findAll();
     }
 
+    
     @GetMapping("/listadoCaducar")
     public ResponseEntity<List<Tarea>> mostrarTareasCaducadas(){
         // Obtener la fecha de hoy
